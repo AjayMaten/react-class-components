@@ -1,10 +1,12 @@
 import "./App.css";
-import Button from "./components/Button";
+// import StyledButton from "./components/StyledButton";
+import Counter from "./components/counter";
 
 function App() {
   return (
     <div className="App">
-      <Button text="Hi" />
+      {/* <StyledButton text="Hi" /> */}
+      <Counter />
     </div>
   );
 }

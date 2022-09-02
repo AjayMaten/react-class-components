@@ -1,6 +1,6 @@
 import React from "react";
 
-class Button extends React.Component {
+class StyledButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -24,6 +24,7 @@ class Button extends React.Component {
       });
     }
   };
+  value = 15;
   render() {
     return (
       <button
@@ -39,4 +40,4 @@ class Button extends React.Component {
   }
 }
 
-export default Button;
+export default StyledButton;
